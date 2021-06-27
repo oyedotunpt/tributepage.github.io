@@ -1,0 +1,167 @@
+<style type="text/css">
+	*{
+		box-sizing:border-box;
+	}
+
+	header {
+		margin-top:70px;
+
+	}
+	ul{	
+		list-style-type:none;
+		overflow: hidden;
+		text-align:center;
+		}
+	li{
+		
+		padding:10px;
+		font-size:25px;
+		display:inline;
+
+	}
+
+	a{
+			text-decoration:none;
+			color:black;
+			font-weight:bolder;
+			font-family:sans-serif;
+
+	}
+	li a:hover {
+		background-color:gray;
+	}
+
+	.pic{
+		background-image:url("yar.JPG");
+		height: 700px;
+		width:500px;
+		margin-top:40px;
+		background-repeat:no-repeat;
+		float:right;
+
+	}
+	.flo{
+		margin-top:60px;
+		background-image: url("woodgrain2.JPG");
+		height:300px;
+		width:1350px;
+		background-size:cover;
+		opacity:0.7;	
+	}
+
+
+p{
+	color:white;
+	font-size: 40px;
+	float:left;
+	display: inline;
+	margin-left:400px;
+	margin-top:100px;
+	text-align:center;
+}
+
+h1{
+	margin-top:40px;
+	color:black;
+	text-align:center;
+	font-family:sans-serif;
+	margin-left:450px;
+}
+hr{
+	margin-left:400px;
+	border-style: solid;
+	opacity:0.2;
+}
+
+.con{
+	display:grid;
+	margin-left:50px;
+	position:relative;
+	margin-top:40px;
+	grid-template-columns:200px 200px;
+	grid-column-gap:440px;
+
+}
+
+.leftup{
+	height:500px;
+	width:600px;
+	border-radius:30px;
+	border-color:black;
+	background-color:white;
+	box-shadow: 3px 4px 4px 5px gray;
+}
+
+.rightup{
+	height:500px;
+	width:600px;
+	border-radius:30px;
+	border-color:black;
+	background-color:white;
+	box-shadow: 3px 4px 4px 5px gray;
+	float:right;
+
+}
+h2{
+	text-align:center;
+	font-family:Aerial,sans-serif;
+	font-size:20px;
+	text-decoration:underline;
+	font-weight:bolder;
+}
+
+article{
+	font-size:15px;
+	text-align:left;
+	line-height:18px;
+	font-weight:bold;
+	margin-left:10px;
+	font-family:candara;
+}
+section{
+	margin-top:100px;
+	text-align:center;
+	font-size:20px;
+	font-family:candara;
+}
+
+#submit{font-size:20px;
+		border-radius:10px;
+		background-color:black;
+		color:white;
+
+}
+footer{
+	margin-top: 60px;
+	font-family:sans-serif;
+	font-size:20px;
+	font-weight:bolder;
+	text-align: center;
+}
+
+}
+@media only screen and (max-device-width:450px;){
+
+													.flo{
+														width:500px;
+														height:300px;
+
+													}
+													.pic{
+														 height:500px;
+														 width:200px;
+
+													}
+													.letfup .rightup {
+														height:400px;
+														width:350px;
+
+													}
+													
+													footer p h1 li { font-size:15px;
+													}
+
+}
+
+
+</style>
